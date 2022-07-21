@@ -1,0 +1,227 @@
+body{
+    margin:0;
+    padding:0;
+    background : linear-gradient(#2d3436,#19191a);
+    font-family: 'Dosis', sans-serif;
+}
+nav{
+    background-color: #dfe6e9;
+    height:4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+.nav-item{
+    background-color: #dfe6e9;
+    width: 10%;
+    margin-left: 1px;
+    color: #2d3436;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.3em;
+    font-weight:lighter;
+    cursor: pointer;
+}
+.nav-item:hover{
+    background-color: #2d3436;
+    color: #dfe6e9;
+    text-decoration: underline;
+}
+.brand{
+    height: 70vh;
+    background-color: blue;
+    border-radius: 0px 0px  70% 70%;
+    
+    background-image: url('./ressources/header_img.png');
+    background-size:cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    font-family: 'Mea Culpa', cursive;
+    color: #e17055;
+    font-size: 11em;
+    font-weight: 100;
+}
+.separator{
+    width: 90%;
+    background-color: #e17055;
+    height: 3px;
+    margin: auto;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+.presentation{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.presentation-text{
+    width: 45%;
+    text-align: center;
+}
+.presentation-image{
+    width: 35%;
+    background-image: url('https://images.unsplash.com/photo-1595228221915-3de4e7788896?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80');
+    background-size: cover;
+    border-radius: 50% 20% / 10% 40%;
+}
+h2{
+    font-family: 'Mea Culpa', cursive;
+    font-size: 6em;
+    font-weight: 200;
+    margin-top: 0;
+    color: #e17055;
+}
+.presentation-text p{
+    font-size: 1.8em;
+    font-weight: 100;
+    text-align: justify;
+    color: #dfe6e9;
+}
+.btn{
+    padding: 2%;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 20px;
+    border: none;
+    background-color: #0984e3;
+    color: #dfe6e9;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #e17055;
+    transform: scale(1.1);
+}
+.btn-presentation{
+    margin-top: 5%;
+    float: left;
+}
+.activite{
+    height: auto;
+    background-color: white;
+    border-radius: 70% 40% 10% 5%;
+    text-align: center;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+}
+.activite h2{
+    color:#0984e3;
+}
+.card-container{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-act{
+    width: 20%;
+    height: 50%;
+    cursor: pointer;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card-act a{
+    font-size: 8em;
+    text-decoration: none;
+    align-self: flex-end;
+    justify-self:end;
+    margin-right: 5%;
+}
+.card-act a:hover{
+    color: #e17055;
+}
+.card-act p{
+    font-size: 2em;
+    color:#e17055;
+    font-weight: 800;
+}
+.card-act:hover{
+    transform: scale(1.05);
+}
+#c1{
+    background-image: url('http://domaine-las-capelas.e-monsite.com/medias/album/images/Vignes-dans-le-cognacais-en-charente-0.jpg');
+}
+#c2{
+    background-image: url('http://domaine-las-capelas.e-monsite.com/medias/album/images/IMG_7740.jpg');
+}
+#c3{
+    background-image: url('./ressources/massage.jpg');
+}
+#c4{
+    background-image: url('http://domaine-las-capelas.e-monsite.com/medias/album/images/carcassonne5_zoom.jpg');
+}
+
+.info{
+    background-color: #fdcb6e;
+    border-radius: 40% 50% 10% 20%;
+    display: flex;
+    height: 80vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-text{
+    width: 50%;
+    margin: auto;
+    font-size: 3em;
+    color: #19191a;
+}
+.info-icon{
+    background-image: url('./ressources/idee.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 40%;
+}
+
+footer{
+    margin-top: 50px;
+    padding-top: 50px;
+    border-top:  3px solid #e17055;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #e17055;
+}
+footer p{
+    margin: 0;
+    padding: 0;
+}
+.reseau{
+    display:flex;
+    flex-direction: row;
+    width: auto;
+    margin-bottom: 20px;
+}
+.icon-res{
+    width: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.lien{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: smaller;
+}
+.lien a{
+    color: #e17055;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
